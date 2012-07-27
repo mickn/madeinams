@@ -8,6 +8,24 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+// Custom Made in Ams
+
+.amsmap {
+  float: left;
+  display: inline-block;
+}
+
+.twitfeed {
+  float: right;
+  display: inline-block;
+}
+
+.companies {
+  float: left;
+  margin-top: 20px;
+}
+
+
 article,
 aside,
 details,

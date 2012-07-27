@@ -45,10 +45,47 @@ body {
         We are proud of all the great tech companies made in Amsterdam.<br>
         Is your company made in Amsterdam too? <a href="join.html">Join this list</a>.
       </p>
-      <iframe width="900" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/ms?msa=0&amp;msid=205847517692902436295.0004c5cc48f4ae078baf7&amp;ie=UTF8&amp;t=m&amp;ll=52.367162,4.89398&amp;spn=0.015722,0.068665&amp;z=14&amp;output=embed"></iframe>
+      
+      <div class="amsmap">
+        <iframe style="float:left;display:inline-block"width="900" height="425" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/ms?msa=0&amp;msid=205847517692902436295.0004c5cc48f4ae078baf7&amp;ie=UTF8&amp;t=m&amp;ll=52.367162,4.89398&amp;spn=0.015722,0.068665&amp;z=14&amp;output=embed"></iframe>
+      </div>
+      
+      <div class="twitfeed">
+        <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+        <script>
+        new TWTR.Widget({
+          version: 2,
+          type: 'list',
+          rpp: 30,
+          interval: 30000,
+          title: '',
+          subject: 'MadeinAms',
+          width: 250,
+          height: 350,
+          theme: {
+            shell: {
+              background: '#c42121',
+              color: '#ffffff'
+            },
+            tweets: {
+              background: '#ffffff',
+              color: '#444444',
+              links: '#de0000'
+            }
+          },
+          features: {
+            scrollbar: true,
+            loop: false,
+            live: true,
+            behavior: 'all'
+          }
+        }).render().setList('edo', 'madeinams').start();
+        </script>
+      </div>
+      
       <ol class="companies">
       <li>
-        <a href="http://22tracks.com">22track</a>
+        <a href="http://22tracks.com">22tracks</a>
       </li>
       <li>
         <a href="http://bottlenose.com">Bottlenose</a>
@@ -96,7 +133,7 @@ body {
         <a href="http://www.springest.nl">Springest</a>
       </li>
       <li>
-        <a href="http://www.studyflow.nl">Studyflow</a>
+        <a href="http://www.studyflow.nl">StudyFlow</a>
       </li>
       <li>
         <a href="http://twittercounter.com">Twittercounter</a>
@@ -114,7 +151,7 @@ body {
         <a href="http://zeker.com">Zeker.com</a>
       </li>
       </ol>
-      <p>
+      <p style="margin-top:10px;float:left">
         We've just launched this website. So please <a href="join.html">join</a> to prove Amsterdam's value on the internet.
       </p>
     </div>
