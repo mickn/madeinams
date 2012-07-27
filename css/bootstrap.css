@@ -18,13 +18,18 @@
 .twitfeed {
   float: right;
   display: inline-block;
-}
-
-.companies {
-  float: left;
   margin-top: 20px;
 }
 
+.companies {
+  margin-top: 20px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.companies {
+
+}
 
 article,
 aside,
@@ -560,11 +565,6 @@ ul {
 
 ol {
   list-style: decimal;
-}
-
-.companies li {
-  line-height: 30px;
-    font-size: 20px;
 }
 
 ul.unstyled,
